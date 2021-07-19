@@ -1,7 +1,7 @@
 .. _doc_animation_tree:
 
-AnimationTree
-=============
+Using AnimationTree
+===================
 
 Introduction
 ------------
@@ -139,7 +139,7 @@ can be controlled to determine blending:
 
 .. image:: img/animtree7.gif
 
-The ranges in X and Y can be controlled (and labeled for convenience). By default, points can be placed anywhere (just right-click on
+The ranges in X and Y can be controlled (and labeled for convenience). By default, points can be placed anywhere (right-click on
 the coordinate system or use the *add point* button) and triangles will be generated automatically using Delaunay.
 
 .. image:: img/animtree8.gif
@@ -283,7 +283,7 @@ Once retrieved, it can be used by calling one of the many functions it offers:
 
  .. code-tab:: csharp
 
-    stateMachine.Travel("SomeState")
+    stateMachine.Travel("SomeState");
 
 The state machine must be running before you can travel. Make sure to either call ``start()`` or choose a node to **Autoplay on Load**.
 
